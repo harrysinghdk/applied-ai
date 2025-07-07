@@ -6,3 +6,7 @@ Course Code: KGAPARI1KU
 ## To Run Note
 
 conda activate ml-env
+
+## Credits
+
+Harry Singh (hars@itu.dk)
