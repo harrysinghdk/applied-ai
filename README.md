@@ -10,4 +10,5 @@ Harry Singh (hars@itu.dk)
 ### To Run Note (personal note)
 
 conda activate ml-env
+
 jupyterlab
