@@ -7,8 +7,11 @@ Harry Singh (hars@itu.dk)
 
 
 
-### To Run Note (personal note)
+### Commands (personal note)
 
 conda activate ml-env
 
 jupyterlab
+
+
+pip install -r ../requirements.txt
