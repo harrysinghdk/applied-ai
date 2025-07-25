@@ -1,0 +1,24 @@
+Dataset credit: Troels Christian Petersen, NBI, KU 
+
+-------------
+In the Aleph experiment at CERN's LEP e+e- collider, Z0-boson (mass = 91 GeV) were produced, which subsequently decayed to both leptons (pairs of electrons, muons, taus or neutrinos) or pairs of quarks (u, d, s, c, and b) creating jets. 
+This (simulated) data concerns only the quark decays, and the purpose is to identify jets from b-quarks (b-jets). These have a small but significant lifetime, allowing them to travel a bit before they decay, and they also produce a wider jet possibly with leptons of higher (relative) pt in them.
+
+The input variables (X) are:
+  energy: Measured energy of the jet in GeV.
+          Should be 45 GeV, but fluctuates.
+  cTheta: cos(theta), i.e. the polar angle of the jet with respect to the beam axis.
+          The detector works best in the central region (|cTheta| small) and less well in the forward regions.
+  phi:    The azimuth angle of the jet.
+          As the detector is uniform in phi, this should not matter (much).
+  prob_b: Probability of being a b-jet from the pointing of the tracks to the vertex.
+  spheri: Sphericity of the event, i.e. how spherical it is.
+  pt2rel: The transverse momentum squared of the tracks relative to the jet axis, i.e. width of the jet.
+  multip: Multiplicity of the jet (in a relative measure).
+  bqvjet: b-quark vertex of the jet, i.e. the probability of a detached vertex.
+  ptlrel: Transverse momentum (in GeV) of possible lepton with respect to jet axis (about 0 if no leptons).
+
+The target variable (Y) is:
+  isb:    1 if it is from a b-quark and 0, if it is not.
+
+
